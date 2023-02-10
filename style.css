@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+    margin: 0;
+}
+
+.clear{
+    width: 296px;
+}
+
+.buttons{
+    font-size: 0;
+}
+    
+
+button{
+    font-size: 50px;
+    width: 74px;
+    border-radius: 3px;
+    border-color: red;
+    cursor: pointer;
+}
+
+.screen{
+    display: flex;
+    height: 120px;
+    width: 288px;
+    background-color: grey;
+    border-radius: 3px;
+    border-color: red;
+    border-style: solid;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    justify-content: end;
+    align-items: flex-end;
+    word-break: break-all;
+    overflow-anchor: auto;
+    
+}
+
+.number:hover{
+    background-color: aqua;
+}
+.operator:hover{
+    background-color: brown;
+}
+ .clear:hover{
+    background-color: yellow;
+ }
+
+ .decimal:hover{
+    background-color: yellowgreen;
+ }
+ .equal:hover{
+    background-color: yellowgreen;
+ }
