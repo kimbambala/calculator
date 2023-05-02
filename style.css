@@ -10,7 +10,7 @@ body {
 }
 
 .clear{
-    width: 296px;
+    background-color: brown;
 }
 
 .buttons{
@@ -54,9 +54,6 @@ button{
     background-color: yellow;
  }
 
- .decimal:hover{
-    background-color: yellowgreen;
- }
  .equal:hover{
     background-color: yellowgreen;
  }
